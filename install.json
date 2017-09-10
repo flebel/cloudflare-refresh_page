@@ -21,8 +21,8 @@
         "title": "Refresh countdown",
         "description": "How many seconds to wait before refreshing the page after it loaded.",
         "order": 0,
-        "type": "int",
-        "default": "60"
+        "type": "integer",
+        "default": 60
       }
     }
   }

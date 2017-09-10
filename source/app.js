@@ -6,7 +6,9 @@
   let options = INSTALL_OPTIONS;
 
   function doWork() {
-    // TODO
+    setTimeout(function() {
+      location.reload(true);
+    }, options.refresh_countdown * 1000);
   }
 
   if (document.readyState === 'loading') {
