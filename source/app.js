@@ -6,7 +6,10 @@
   let options = INSTALL_OPTIONS;
 
   function doWork() {
-    // TODO
+    // TODO: message https://github.com/CloudflareApps/Ideas/issues/263
+    setTimeout(function() {
+      location.reload(true);
+    }, options.refresh_countdown * 1000);
   }
 
   if (document.readyState === 'loading') {
