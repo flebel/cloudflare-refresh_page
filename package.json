@@ -8,7 +8,7 @@
   },
   "private": true,
   "author": "Francois Lebel",
-  "keywords": ["refresh", "page", "reload", "load", "debug"],
+  "keywords": ["refresh", "page", "reload", "load", "interval", "debug"],
   "homepage": "https://github.com/flebel/cloudflare-refresh_page",
   "bugs": "https://github.com/flebel/cloudflare-refresh_page/issues",
   "license": "Apache-2.0",

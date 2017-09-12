@@ -8,7 +8,7 @@
   function doWork() {
     setTimeout(function() {
       location.reload(true);
-    }, options.refresh_countdown * 1000);
+    }, options.refresh_interval * 1000);
   }
 
   if (document.readyState === 'loading') {
