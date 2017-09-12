@@ -1,7 +1,7 @@
 {
   "name": "refresh-page",
   "version": "0.1.0",
-  "description": "",
+  "description": "Automatically refresh a page after a given interval.",
   "main": "app.js",
   "scripts": {
     "lint": "standard --fix ./source/**/*.js || true"
