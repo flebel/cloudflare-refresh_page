@@ -3,7 +3,7 @@
 
   if (!window.addEventListener) return; // Check for IE9+.
 
-  let options = INSTALL_OPTIONS;
+  var options = INSTALL_OPTIONS;
 
   function doWork() {
     setTimeout(function() {
